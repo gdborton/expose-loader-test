@@ -1,0 +1,17 @@
+{
+  "name": "expose-loader-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "expose-loader": "git+ssh://git@github.com:gdborton/expose-loader.git#7945aa20dec416b0d99cf45906c9b3acc821f996",
+    "react": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
